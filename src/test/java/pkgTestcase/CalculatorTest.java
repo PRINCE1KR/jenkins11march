@@ -35,7 +35,7 @@ public class CalculatorTest {
 	@Test
 	public void testAddition() {
 		int varResult_addition=objscientificCalculator.addition(12, 12);
-		Assert.assertEquals("TC_Addition", 24,varResult_addition);
+		Assert.assertEquals("TC_Addition", 26,varResult_addition);
 	}
 
 	@Test
